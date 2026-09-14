@@ -1,0 +1,11 @@
+# OpenCode / agent session state
+.omo/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
