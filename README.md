@@ -182,6 +182,11 @@
 - [DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](https://arxiv.org/abs/2310.03714) - 针对用户定义的指标优化提示词与示范，编译声明式 LM 程序。 (NeurIPS 2023 R0-FoMo Workshop)
 - [AFlow: Automating Agentic Workflow Generation](https://arxiv.org/abs/2410.10762) - 把智能体工作流表示为代码，用蒙特卡洛树搜索在可执行空间中搜索并迭代改进工作流本身。 (ICLR 2025)
 - [Adaptive Self-Improvement for ML Library Development](https://arxiv.org/abs/2502.02534) - 让智能体系统针对 ML 库开发这类长程任务，自我改进其程序生成与验证策略。 (arXiv 2025)
+- [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457) - 用执行反馈与自然语言反思进化提示词，并以 Pareto 式选择保留互补候选；在若干任务上以远少于 GRPO 的 rollout 次数超过强化学习。 (ICLR 2026 Oral)
+- [EvoPrompt: Connecting LLMs with Evolutionary Algorithms Yields Powerful Prompt Optimizers](https://arxiv.org/abs/2309.08532) - 把进化算法与 LLM 结合，用变异与交叉算子在离散提示空间迭代搜索。 (arXiv 2023)
+- [Automatic Prompt Optimization with "Gradient Descent" and Beam Search](https://arxiv.org/abs/2305.03495) - 把自然语言反馈当作「梯度」，用束搜索在提示空间做无需访问模型参数的优化。 (EMNLP 2023)
+- [Large Language Models Are Human-Level Prompt Engineers (APE)](https://arxiv.org/abs/2211.01910) - 让 LLM 生成候选指令再由模型自身打分筛选，性能可超过人工撰写的提示。 (ICLR 2023)
+- [Eliciting Knowledge from Language Models Using Automatically Generated Prompts](https://arxiv.org/abs/2010.15980) - 用自动生成的提示（而非人工模板）从预训练语言模型中抽取知识，是「让模型自己写提示」的早期工作。 (EMNLP 2020)
 
 ### Context & Memory Evolution（上下文与记忆进化）
 
@@ -193,6 +198,7 @@
 - [ExpeL: LLM Agents Are Experiential Learners](https://arxiv.org/abs/2308.10144) - 从成功与失败轨迹中提取可复用洞察，无需更新权重即可迁移到未来任务。 (AAAI 2024)
 - [MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/abs/2305.10250) - 维护并有选择地遗忘长期交互记忆，使智能体随时间调整响应。 (AAAI 2024)
 - [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366) - 通过存储从任务反馈中得出的自然语言反思来跨试验改进智能体。 (NeurIPS 2023)
+- [Metis: Bridging Text and Code Memory for Self-Evolving Agents](https://arxiv.org/abs/2606.24151) - 在文本记忆与代码记忆之间架桥，让自我进化智能体以更可执行的形式复用过往经验，而非只做上下文注入。 (arXiv 2026)
 
 ### Harness & Scaffold Evolution（外壳与脚手架进化）
 
@@ -223,6 +229,7 @@
 - [WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution](https://arxiv.org/abs/2608.27454) - 把智能体经验编译为可持久维护的知识条目，作为技能持续进化的基底。 (arXiv 2026)
 - [Audited Skill-Graph Self-Improvement for Agentic LLMs via Verifiable Rewards, Experience Synthesis, and Continual Memory (ASG-SI)](https://arxiv.org/abs/2512.23760) - 用可验证奖励构建可审计的技能图，并通过经验合成与持续记忆驱动智能体自我改进。 (arXiv 2025)
 - [Self-evolving LLM Agents with in-distribution Optimization (Q-Evolve)](https://arxiv.org/abs/2606.07367) - 在共享的同分布学习回路中协同进化过程奖励与策略：由加权 IQL 评论家给出步级优势作为过程奖励，再以行为近端策略优化迭代改进。 (ICML 2026)
+- [Trace2Skill: Distill Trajectory-Local Lessons into Transferable Agent Skills](https://arxiv.org/abs/2603.25158) - 把执行轨迹中的局部经验蒸馏为可迁移的智能体技能，解决手工撰写技能无法规模化、纯参数知识又遗漏操作陷阱的问题。 (arXiv 2026)
 
 ### Extensible Harness Substrates（可扩展外壳基底）
 
@@ -260,6 +267,8 @@
 - [Self-evolving Agents with Reflective and Memory-Augmented Abilities](https://arxiv.org/abs/2409.00872) - 结合迭代反馈、反思与遗忘感知的记忆优化，实现智能体持续适应。 (Neurocomputing 2025)
 - [Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization](https://arxiv.org/abs/2402.17574) - 通过反思与搜索从交互经验中精炼智能体的信念与行为策略。 (ACL 2024)
 - [Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291) - 构建不断扩展的技能库，并用环境反馈在 Minecraft 中进行终身自主学习。 (TMLR 2024)
+- [APEX: Autonomous Policy Exploration for Self-Evolving LLM Agents](https://arxiv.org/abs/2605.21240) - 让智能体在测试时自主探索策略，把交互经验积累为可复用的策略改进，而非只更新记忆。 (arXiv 2026)
+- [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456) - 面向通用计算机操作的自改进智能体，通过积累交互经验持续提升任务完成能力。 (arXiv 2024)
 
 ## Multi-Agent Self-Improvement（多智能体自我改进）
 
@@ -322,6 +331,7 @@
 - [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292) - 自动化想法生成、实验、论文写作与评审，形成可复用的机器学习研究循环。 (arXiv 2024)
 - [Can Large Language Models Invent Algorithms to Improve Themselves? (Self-Developing)](https://aclanthology.org/2025.naacl-long.519/) - 提出 Self-Developing 框架，让 LLM 自主生成并学习「改进模型的算法」，在 GSM8k 上发现超越人工设计的模型合并策略。 (NAACL 2025)
 - [EvoScientist: Towards Multi-Agent Evolving AI Scientists for End-to-End Scientific Discovery](https://arxiv.org/abs/2603.08127) - 让多智能体科研系统在端到端科学发现过程中进化自身的分工与策略。 (arXiv 2026)
+- [AIRA_2: Overcoming Bottlenecks in AI Research Agents](https://arxiv.org/abs/2603.26499) - 针对 AI 研究智能体的三个结构性瓶颈——同步单卡执行限制采样吞吐、基于验证的选择带来泛化差距、搜索效率不足——给出改进方案。 (arXiv 2026)
 
 ## Embodied & Physical Self-Improvement（具身与物理自我改进）
 
@@ -333,6 +343,9 @@
 - [RISE: Self-Improving Robot Policy with Compositional World Model](https://arxiv.org/abs/2602.11075) - 用组合世界模型持续生成想象 rollout、估计优势并更新机器人策略。 (RSS 2026)
 - [Self-Evolving Embodied Agents via Skill-Harness Evolution](https://arxiv.org/abs/2608.11350) - 冻结模型权重，同一模型同时充当规划器与优化器，持续进化可复用技能与上下文代码外壳。 (arXiv 2026)
 - [Self-Improving Vision-Language-Action Models with Data Generation via Residual RL](https://iclr.cc/virtual/2026/poster/10008318) - 用残差强化学习定位 VLA 失败区域并生成恢复轨迹，蒸馏回通才策略，形成数据到策略的自我改进飞轮。 (ICLR 2026)
+- [PRACTICE: From Experience to Expertise in Self-Evolving Embodied Agents](https://arxiv.org/abs/2608.30760) - 让多模态具身智能体把交互经验转化为可复用的专长，实现跨任务的持续自我改进。 (arXiv 2026)
+- [SIMA 2: A Generalist Embodied Agent for Virtual Worlds](https://arxiv.org/abs/2512.04797) - 基于 Gemini 的通用具身智能体，可在多种 3D 虚拟世界中理解与行动，并具备自我改进能力。 (arXiv 2025)
+- [EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents](https://arxiv.org/abs/2403.12014) - 让 LLM 生成并自适应调整训练环境，用于训练具身智能体，缓解固定环境导致的过拟合。 (arXiv 2024)
 
 ## Evolutionary & Open-Ended RSI（进化式与开放式 RSI）
 
@@ -360,7 +373,7 @@
 - [TamperBench: Systematically Stress-Testing LLM Safety Under Fine-Tuning and Tampering](https://arxiv.org/abs/2602.06911) - 系统压力测试安全对齐在微调、权重空间修改与表示篡改下是否保持。 (arXiv 2026)
 - [Your Agent May Misevolve: Emergent Risks in Self-evolving LLM Agents](https://arxiv.org/abs/2509.26354) - 研究模型、记忆、工具与工作流进化路径中的有害漂移，提出「误进化（misevolution）」概念。 (ICLR 2026)
 - [Escaping Model Collapse via Synthetic Data Verification: Near-term Improvements and Long-term Convergence](https://arxiv.org/abs/2510.16657) - 研究自我生成数据上的迭代训练何时坍缩，并展示外部验证如何稳定自我改进。 (arXiv 2025)
-- [Evaluating Goal Drift in Language Model Agents](https://arxiv.org/abs/2505.02709) - 度量长程智能体是否在竞争性环境压力下逐渐偏离既定目标。 (arXiv 2025)
+- [Evaluating Goal Drift in Language Model Agents](https://arxiv.org/abs/2505.02709) - 度量长程智能体是否在竞争性环境压力下逐渐偏离既定目标，并发现漂移与上下文增长带来的模式匹配倾向相关。 (AIES 2025)
 - [Will Compute Bottlenecks Prevent an Intelligence Explosion?](https://arxiv.org/abs/2507.23181) - 分析算力瓶颈是否会阻止智能爆炸，区分思考速度、算法质量与任务成绩。 (arXiv 2025)
 - [Performance of Bounded-Rational Agents With the Ability to Self-Modify](https://arxiv.org/abs/2011.06275) - 表明自我修改可能放大错误并逐渐使有限理性智能体失配。 (AAAI 2021 SafeAI Workshop)
 - [AGI Agent Safety by Iteratively Improving the Utility Function](https://arxiv.org/abs/2007.05411) - 设计一种安全机制，允许智能体效用函数迭代更新，同时降低操纵改进过程的激励。 (AGI 2020)
@@ -436,7 +449,7 @@
 - [Long-Horizon-Terminal-Bench](https://arxiv.org/abs/2607.08964) - 在 46 个终端任务上评估智能体，要求跨越数百个回合并伴随密集中间奖励的持续执行。 (arXiv 2026)
 - [OSWorld 2.0](https://arxiv.org/abs/2606.29537) - 度量计算机使用智能体在 108 个真实端到端工作流上的表现，中位人类完成时间约 1.6 小时。 (arXiv 2026)
 - [MCPMark](https://arxiv.org/abs/2509.24002) - 在 SaaS、开发、浏览器、文件系统与数据库环境中压力测试真实有状态 MCP 工作流。 (arXiv 2025)
-- [METR Task-Completion Time Horizon](https://arxiv.org/abs/2503.14499) - 估计智能体在不可平凡并行的软件任务上以给定概率成功的人类等效任务时长。 (NeurIPS 2025)
+- [Measuring AI Ability to Complete Long Software Tasks (METR Time Horizon)](https://arxiv.org/abs/2503.14499) - 估计智能体在不可平凡并行的软件任务上以给定概率成功的人类等效任务时长。 (NeurIPS 2025)
 - [SWE-Bench Pro](https://arxiv.org/abs/2509.16941) - 在 1865 个抗污染的、需要数小时或数天专业软件工程的企业级任务上测试编码智能体。 (arXiv 2025)
 - [TheAgentCompany](https://arxiv.org/abs/2412.14161) - 在模拟软件公司内评估智能体完成 175 个跨应用工作场所任务。 (NeurIPS 2025)
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench) - 提供可复现的真实世界软件问题，用于评估编码智能体与 DGM 等经验性自我修改系统。 (ICLR 2024)
