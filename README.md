@@ -78,7 +78,7 @@
   - [Agent Capability Proxies（智能体能力代理指标）](#agent-capability-proxies智能体能力代理指标) `9`
 - [Frameworks & Tools（框架与工具）](#frameworks--tools框架与工具)
   - [Self-Modifying / Self-Evolving Systems（自我修改 / 自我进化系统）](#self-modifying--self-evolving-systems自我修改--自我进化系统) `14`
-  - [Harness / Memory / Skill Evolution（外壳 / 记忆 / 技能进化）](#harness--memory--skill-evolution外壳--记忆--技能进化) `10`
+  - [Harness / Memory / Skill Evolution（外壳 / 记忆 / 技能进化）](#harness--memory--skill-evolution外壳--记忆--技能进化) `11`
   - [Automated Search / AI R&D（自动化搜索 / AI 研发）](#automated-search--ai-rd自动化搜索--ai-研发) `9`
 - [Chinese Resources（中文资源）](#chinese-resources中文资源)
 - [Blog Posts & Discussions（博客文章与讨论）](#blog-posts--discussions博客文章与讨论)
@@ -505,6 +505,7 @@
 - [Continual Harness](https://github.com/sethkarten/continual-harness) - 从经验中在线适应的自我改进智能体外壳。 `持久改进`
 - [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) - 自动构建、评估与优化智能体工作流的自我进化框架。 `持久改进`
 - [EvolveR](https://github.com/KnowledgeXLab/EvolveR) - 通过闭环、经验驱动生命周期改进的自我进化 LLM 智能体框架。 `持久改进`
+- [Gear](https://github.com/rsi-gear/gear) - 利用执行轨迹与基准评测反馈迭代优化智能体的提示词、工具和工作流，将选中的外壳版本保留供后续轮次使用。 (2026) `持久改进`
 - [Letta Code](https://github.com/letta-ai/letta-code) - 记忆优先的编码智能体外壳，长寿命智能体重写上下文并从经验学习技能。 `持久改进`
 - [Memento-Skills](https://github.com/Memento-Teams/Memento-Skills) - 通过反思学习检索、评估、修复并重写持久技能的自我进化框架。 `持久改进`
 - [Reef](https://github.com/Human-Agent-Society/reef) - 持续学习服务基础设施，记录智能体交互，将匹配的反馈转化为模型权重或外壳更新。 `持久改进`
@@ -633,7 +634,7 @@ RSI 已成为一个活跃的策展领域，GitHub 上并存着多份主题相近
 - [Self-Improving Coding Agent](https://github.com/MaximeRobeyns/self_improving_coding_agent)
 - [yoyo-evolve](https://github.com/yologdev/yoyo-evolve)
 
-**持久改进（133 条）** —— 对权重、记忆、技能、外壳或代码的改动会被后续轮次继承，但改进算子固定。
+**持久改进（134 条）** —— 对权重、记忆、技能、外壳或代码的改动会被后续轮次继承，但改进算子固定。
 
 - [Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams](https://arxiv.org/abs/2606.01770)
 - [AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse](https://arxiv.org/abs/2603.18000)
@@ -756,6 +757,7 @@ RSI 已成为一个活跃的策展领域，GitHub 上并存着多份主题相近
 - [EvolveR](https://github.com/KnowledgeXLab/EvolveR)
 - [FunSearch](https://github.com/google-deepmind/funsearch)
 - [GenericAgent](https://github.com/lsdefine/GenericAgent)
+- [Gear](https://github.com/rsi-gear/gear)
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent)
 - [Letta Code](https://github.com/letta-ai/letta-code)
 - [Memento-Skills](https://github.com/Memento-Teams/Memento-Skills)
