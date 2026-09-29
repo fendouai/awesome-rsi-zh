@@ -508,6 +508,7 @@
 - [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) - 自动构建、评估与优化智能体工作流的自我进化框架。 `持久改进`
 - [EvolveR](https://github.com/KnowledgeXLab/EvolveR) - 通过闭环、经验驱动生命周期改进的自我进化 LLM 智能体框架。 `持久改进`
 - [Gear](https://github.com/rsi-gear/gear) - 利用执行轨迹与基准评测反馈迭代优化智能体的提示词、工具和工作流，将选中的外壳版本保留供后续轮次使用。 (2026) `持久改进`
+- [harness-zero](https://github.com/metaevo-ai/harness-zero) - Harness-Zero 的官方实现：通过 agent-as-harness 训练循环把外壳行为蒸馏进模型权重。 `持久改进`
 - [Letta Code](https://github.com/letta-ai/letta-code) - 记忆优先的编码智能体外壳，长寿命智能体重写上下文并从经验学习技能。 `持久改进`
 - [Memento-Skills](https://github.com/Memento-Teams/Memento-Skills) - 通过反思学习检索、评估、修复并重写持久技能的自我进化框架。 `持久改进`
 - [Reef](https://github.com/Human-Agent-Society/reef) - 持续学习服务基础设施，记录智能体交互，将匹配的反馈转化为模型权重或外壳更新。 `持久改进`
