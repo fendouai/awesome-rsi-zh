@@ -217,6 +217,7 @@
 - [Metis: Bridging Text and Code Memory for Self-Evolving Agents](https://arxiv.org/abs/2606.24151) - 在文本记忆与代码记忆之间架桥，让自我进化智能体以更可执行的形式复用过往经验，而非只做上下文注入。 (arXiv 2026) `持久改进`
 - [From Procedural Skills to Strategy Genes: Towards Experience-Driven Test-Time Evolution](https://arxiv.org/abs/2604.15097) - 在 4590 个受控试验中比较经验表示，发现紧凑可编辑的「基因」比文档导向的「技能包」提供更强的测试时控制。 (arXiv 2026) `持久改进`
 - [Learning to Continually Learn via Meta-learning Agentic Memory Designs](https://arxiv.org/abs/2602.07755) - 用元智能体发现可执行的记忆模式及检索/更新机制，从经验中持续改进。 (arXiv 2026) `持久改进`
+- [Meta Context Engineering via Agentic Skill Evolution](https://arxiv.org/abs/2601.21557) - 用双层框架共同进化上下文工程技能与上下文产物，以「技能进化技能」取代静态上下文工程启发式。 (ICML 2026) `真递归`
 - [EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/abs/2510.16079) - 将交互轨迹蒸馏为可复用的战略原则，在未来任务中检索，并在闭环中强化智能体策略。 (ICML 2026) `持久改进`
 - [Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/abs/2510.04618) - 通过生成、反思与策展将上下文进化为结构化「操作手册」，同时避免破坏性的上下文坍缩。 (ICLR 2026) `持久改进`
 - [A-MEM: Agentic Memory for LLM Agents](https://arxiv.org/abs/2502.12110) - 构建动态链接的笔记网络，其组织随智能体积累新经验而进化。 (NeurIPS 2025) `持久改进`
@@ -226,6 +227,7 @@
 
 ### Harness & Scaffold Evolution（外壳与脚手架进化）
 
+- [Harness-Zero: Harness Distillation via Agent-as-Harness](https://arxiv.org/abs/2609.24974) - 通过 agent-as-harness 训练循环把优化后的外壳行为蒸馏进模型权重，使智能体在推理时不依赖外壳也能保留收益。 (arXiv 2026) `持久改进`
 - [WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution](https://arxiv.org/abs/2608.27454) - 把智能体经验编译为可持久维护的知识条目，作为技能持续进化的基底。 (arXiv 2026) `持久改进`
 - [Prime Agent: A Self-Improving RLM Harness](https://arxiv.org/abs/2608.23552) - 通过持续的外壳适配与递归委派，让长程运行的 RLM 智能体不断改进自身。 (arXiv 2026) `真递归`
 - [AutoSaddler: Automatic Harness Optimization with Durable Updates from Agent Execution Traces](https://arxiv.org/abs/2608.23041) - 从智能体执行轨迹中提取可持久保留的外壳更新，避免改进随会话结束而丢失。 (arXiv 2026) `持久改进`
@@ -506,6 +508,7 @@
 - [EvoAgentX](https://github.com/EvoAgentX/EvoAgentX) - 自动构建、评估与优化智能体工作流的自我进化框架。 `持久改进`
 - [EvolveR](https://github.com/KnowledgeXLab/EvolveR) - 通过闭环、经验驱动生命周期改进的自我进化 LLM 智能体框架。 `持久改进`
 - [Gear](https://github.com/rsi-gear/gear) - 利用执行轨迹与基准评测反馈迭代优化智能体的提示词、工具和工作流，将选中的外壳版本保留供后续轮次使用。 (2026) `持久改进`
+- [harness-zero](https://github.com/metaevo-ai/harness-zero) - Harness-Zero 的官方实现：通过 agent-as-harness 训练循环把外壳行为蒸馏进模型权重。 `持久改进`
 - [Letta Code](https://github.com/letta-ai/letta-code) - 记忆优先的编码智能体外壳，长寿命智能体重写上下文并从经验学习技能。 `持久改进`
 - [Memento-Skills](https://github.com/Memento-Teams/Memento-Skills) - 通过反思学习检索、评估、修复并重写持久技能的自我进化框架。 `持久改进`
 - [Reef](https://github.com/Human-Agent-Society/reef) - 持续学习服务基础设施，记录智能体交互，将匹配的反馈转化为模型权重或外壳更新。 `持久改进`
