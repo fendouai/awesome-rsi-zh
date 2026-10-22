@@ -585,6 +585,8 @@ RSI 已成为一个活跃的策展领域，GitHub 上并存着多份主题相近
 - [asimfish/awesome_rsi](https://github.com/asimfish/awesome_rsi) - 收录 67 篇论文，并为每篇提供中文精读报告、双语 PDF、时间线/分类图、幻灯片与长篇总报告，中文读者的深度入口。 (2026)
 - [ballooooooon/awesome-rsi](https://github.com/ballooooooon/awesome-rsi) - 覆盖自我进化智能体与 RSI 的论文、开源项目与产品。 (2026)
 - [SUPERZJ827/awesome-RSI](https://github.com/SUPERZJ827/awesome-RSI) / [Omni-Scientist/Awesome-RSI](https://github.com/Omni-Scientist/Awesome-RSI) / [AltanReisoglu/awesome-rsi](https://github.com/AltanReisoglu/awesome-rsi) - 规模较小的 RSI 论文清单，可作为交叉校验的补充来源。 (2026)
+- [vicfei/awesome-self-improving-coding-agents](https://github.com/vicfei/awesome-self-improving-coding-agents) - RSI × 软件工程的垂直清单：系统、基准与安全按「真递归/有界自改进/支撑件」分级，附每日 arXiv 雷达。 (2026)
+- [vicfei/awesome-agentic-ml](https://github.com/vicfei/awesome-agentic-ml) - RSI × 模型与数据的垂直清单：训练运行、数据智能体、蒸馏与合成数据的自动化。 (2026)
 - [fendouai/awesome-rsi-zh](https://github.com/fendouai/awesome-rsi-zh) - 本清单仓库。中文整理，在 lobehub 版本基础上增补中文资源、近年新工作与中文团队成果。
 
 ### 相邻清单（Adjacent Awesome Lists）
@@ -593,6 +595,7 @@ RSI 已成为一个活跃的策展领域，GitHub 上并存着多份主题相近
 - [Awesome AutoML Papers](https://github.com/hibayesian/awesome-automl-papers) - 自动化模型选择、架构搜索、超参数优化及相关技术的策展文献。 (2018)
 - [Awesome Self-Improving Agents](https://github.com/selfimproving-agent/awesome-Self-Improving-Agents) - 聚焦更新自身模型、记忆、工具、提示或工作流的基础模型智能体的书目。 (2024)
 - [Recursive Self-Improvement Research Atlas（递归式自我改进研究地图）](https://github.com/Linwei-Chen/recursive-self-improvement-research-atlas) - 中文 RSI 研究地图，按七条路线分层梳理证据与验证瓶颈。 (2026)
+- [vicfei/awesome-ai-native](https://github.com/vicfei/awesome-ai-native) - 组织层视角的清单：agent 进入企业组织架构表时的设计原则、组织记忆治理与 agent 权限三体问题。 (2026)
 
 ## 按改进强度索引（Index by Improvement Strength）
 
