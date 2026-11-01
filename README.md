@@ -78,7 +78,7 @@
   - [Agent Capability Proxies（智能体能力代理指标）](#agent-capability-proxies智能体能力代理指标) `9`
 - [Frameworks & Tools（框架与工具）](#frameworks--tools框架与工具)
   - [Self-Modifying / Self-Evolving Systems（自我修改 / 自我进化系统）](#self-modifying--self-evolving-systems自我修改--自我进化系统) `14`
-  - [Harness / Memory / Skill Evolution（外壳 / 记忆 / 技能进化）](#harness--memory--skill-evolution外壳--记忆--技能进化) `11`
+  - [Harness / Memory / Skill Evolution（外壳 / 记忆 / 技能进化）](#harness--memory--skill-evolution外壳--记忆--技能进化) `12`
   - [Automated Search / AI R&D（自动化搜索 / AI 研发）](#automated-search--ai-rd自动化搜索--ai-研发) `9`
 - [Chinese Resources（中文资源）](#chinese-resources中文资源)
 - [Blog Posts & Discussions（博客文章与讨论）](#blog-posts--discussions博客文章与讨论)
@@ -500,6 +500,7 @@
 
 ### Harness / Memory / Skill Evolution（外壳 / 记忆 / 技能进化）
 
+- [agent-qa](https://github.com/vostride/agent-qa) - 面向网页和移动端的 QA 智能体，在本地运行后以已验证证据门控 memidex 知识更新，并供后续测试检索复用（[vostride](https://vostride.com)；CLI 免费，模型与可选设备服务费用另计，FSL-1.1-ALv2 限制竞争性商业用途）。 (2026) `持久改进`
 - [ACE](https://github.com/ace-agent/ace) - Agentic Context Engineering 的官方实现：为自我改进语言模型进化上下文。 `持久改进`
 - [ALMA](https://github.com/zksha/alma) - Learning to Continually Learn via Meta-learning Agentic Memory Designs 的官方实现。 `持久改进`
 - [Continual Harness](https://github.com/sethkarten/continual-harness) - 从经验中在线适应的自我改进智能体外壳。 `持久改进`
@@ -634,7 +635,7 @@ RSI 已成为一个活跃的策展领域，GitHub 上并存着多份主题相近
 - [Self-Improving Coding Agent](https://github.com/MaximeRobeyns/self_improving_coding_agent)
 - [yoyo-evolve](https://github.com/yologdev/yoyo-evolve)
 
-**持久改进（134 条）** —— 对权重、记忆、技能、外壳或代码的改动会被后续轮次继承，但改进算子固定。
+**持久改进（135 条）** —— 对权重、记忆、技能、外壳或代码的改动会被后续轮次继承，但改进算子固定。
 
 - [Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams](https://arxiv.org/abs/2606.01770)
 - [AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse](https://arxiv.org/abs/2603.18000)
@@ -747,6 +748,7 @@ RSI 已成为一个活跃的策展领域，GitHub 上并存着多份主题相近
 - [POWERPLAY: Training an Increasingly General Problem Solver by Continually Searching for the Simplest Still Unsolvable Problem](https://arxiv.org/abs/1112.5309)
 - [ACE](https://github.com/ace-agent/ace)
 - [ADAS](https://github.com/ShengranHu/ADAS)
+- [agent-qa](https://github.com/vostride/agent-qa)
 - [AgentEvolver](https://github.com/modelscope/AgentEvolver)
 - [AgentFactory](https://github.com/zzatpku/AgentFactory)
 - [ALMA](https://github.com/zksha/alma)
