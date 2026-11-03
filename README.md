@@ -64,7 +64,7 @@
   - [Inference-time Debate（推理时辩论）](#inference-time-debate推理时辩论) `2`
 - [Coding / Software-Engineering Self-Improvement（编码 / 软件工程自我改进）](#coding--software-engineering-self-improvement编码--软件工程自我改进)
   - [Self-Modifying Coding Agents（自我修改的编码智能体）](#self-modifying-coding-agents自我修改的编码智能体) `7`
-  - [Iterative Repair & Training（迭代修复与训练）](#iterative-repair--training迭代修复与训练) `3`
+  - [Iterative Repair & Training（迭代修复与训练）](#iterative-repair--training迭代修复与训练) `4`
 - [Automated AI R&D（自动化 AI 研发）](#automated-ai-rd自动化-ai-研发) `13`
 - [Embodied & Physical Self-Improvement（具身与物理自我改进）](#embodied--physical-self-improvement具身与物理自我改进) `9`
 - [Evolutionary & Open-Ended RSI（进化式与开放式 RSI）](#evolutionary--open-ended-rsi进化式与开放式-rsi) `12`
@@ -335,6 +335,7 @@
 
 混合当前轮的修复循环与可延续到后续迭代的持久性改进。
 
+- [Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair](https://arxiv.org/abs/2605.30105) - 构建质量评分驱动的经验库，将修复轨迹转化为可跨轮次、跨漏洞复用的知识，指导后续自动化漏洞修复。 (ICSE 2027) `持久改进`
 - [Training Software Engineering Agents and Verifiers with SWE-Gym](https://arxiv.org/abs/2412.21139) - 提供可执行仓库任务与轨迹，用于训练 SWE 智能体与推理时验证器。 (ICML 2025) `持久改进`
 - [Teaching Large Language Models to Self-Debug](https://arxiv.org/abs/2304.05128) - 教会模型检查执行结果、解释代码并通过迭代提示修复失败。 (ICLR 2024) `支撑技术`
 - [AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation](https://arxiv.org/abs/2312.13010) - 协调程序员、测试设计者与测试执行者智能体，在反馈循环中迭代修复生成的代码。 (arXiv 2023) `支撑技术`
@@ -634,7 +635,7 @@ RSI 已成为一个活跃的策展领域，GitHub 上并存着多份主题相近
 - [Self-Improving Coding Agent](https://github.com/MaximeRobeyns/self_improving_coding_agent)
 - [yoyo-evolve](https://github.com/yologdev/yoyo-evolve)
 
-**持久改进（134 条）** —— 对权重、记忆、技能、外壳或代码的改动会被后续轮次继承，但改进算子固定。
+**持久改进（135 条）** —— 对权重、记忆、技能、外壳或代码的改动会被后续轮次继承，但改进算子固定。
 
 - [Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams](https://arxiv.org/abs/2606.01770)
 - [AgentFactory: A Self-Evolving Framework Through Executable Subagent Accumulation and Reuse](https://arxiv.org/abs/2603.18000)
@@ -660,6 +661,7 @@ RSI 已成为一个活跃的策展领域，GitHub 上并存着多份主题相近
 - [GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning](https://arxiv.org/abs/2507.19457)
 - [Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing](https://arxiv.org/abs/2602.04837)
 - [HASE: Harness-Aware Self-Evolving](https://arxiv.org/abs/2607.03935)
+- [Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair](https://arxiv.org/abs/2605.30105)
 - [Learning to Continually Learn via Meta-learning Agentic Memory Designs](https://arxiv.org/abs/2602.07755)
 - [Learning to Self-Evolve](https://arxiv.org/abs/2603.18620)
 - [MemoHarness: Agent Harnesses That Learn from Experience](https://arxiv.org/abs/2607.14159)
